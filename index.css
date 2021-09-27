@@ -10,7 +10,7 @@
 body{
     background-image: url('images/bg-header-desktop.png');
     background-repeat: no-repeat;
-    background-size: auto;
+    background-size: contain;
 }
 .container{
     display: flex;
@@ -25,24 +25,24 @@ body{
     align-items: center;
 }
 .clipboard{
-    height: 100px;
+    height: 200px;
 }
 .one-one{
-    font-size: 36px;
+    font-size: 65px;
     font-weight: 600;
     color: hsl(210, 10%, 33%) ;
-    margin-top: 50px;
+    margin-top: 60px;
 }
 .one-two{
-    font-size: 20px;
+    font-size: 30px;
     font-weight: 400;
     color: hsl(201, 11%, 66%) ;
-    margin-top: 20px;
+    margin-top: 50px;
     text-align: center;
     width: 60%;
 }
 .buttons{
-    margin-top: 50px;
+    margin-top: 70px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -51,13 +51,13 @@ body{
 .button-ios{
     border:none;
     border-radius: 50px;
-    padding: 14px 40px;
-    font-size: 18px;
+    padding: 20px 60px;
+    font-size: 25px;
     color:rgba(255, 255, 255, 0.8) ;
-    margin-right: 20px;
+    margin-right: 50px;
     background-color: hsl(171, 66%, 44%);
-    box-shadow: 1px 3px 10px 0px hsl(171deg 60% 33%), 
-                1px 3px 0px 0px hsl(171deg 60% 33%);
+    box-shadow: 1px 5px 10px 0px hsl(171deg 60% 33%), 
+                1px 5px 0px 0px hsl(171deg 60% 33%);
     transition: 75ms;
     cursor: pointer;
 }
@@ -70,8 +70,8 @@ body{
 .button-mac{
     border:none;
     border-radius: 50px;
-    padding: 14px 40px;
-    font-size: 18px;
+    padding: 20px 60px;
+    font-size: 25px;
     color:rgba(255, 255, 255, 0.8) ;
     background-color: hsl(233, 100%, 69%); 
     box-shadow: 1px 3px 10px 0px hsl(233deg 48% 53%), 
@@ -92,27 +92,28 @@ body{
     margin-bottom: 10%;
 }
 .two-one{
-    font-size: 32px;
+    font-size: 50px;
     font-weight: 600;
     color: hsl(210, 10%, 33%) ;
 }
 .two-two{
-    font-size: 18px;
+    font-size: 25px;
     font-weight: 400;
     color: hsl(201, 11%, 66%) ;
-    margin-top: 20px;
+    margin-top: 30px;
     text-align: center;
     width: 50%;
 }
 .part-three{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: flex-start;
     margin-bottom: 10%;
+    width: 100%;
 }
 .computer-img{
-    height: 55%;
-    margin-left: -2.5%;
+    width: 50%;
+    margin-left: -2%;
     margin-right: 10%;
 }
 .three-one{
@@ -127,13 +128,13 @@ body{
     width: 70%;
 }
 .three-one-text{
-    font-size: 28px;
+    font-size: 35px;
     font-weight: 600;
     color: hsl(210, 10%, 33%) ;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 .three-one-small-text{
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 400;
     word-spacing: 2px;
     color: hsl(201, 11%, 66%) ;
@@ -146,15 +147,15 @@ body{
     margin-bottom: 7.5%;
 }
 .four-one{
-    font-size: 32px;
+    font-size: 50px;
     font-weight: 600;
     color: hsl(210, 10%, 33%) ; 
 }
 .four-two{
-    font-size: 18px;
+    font-size: 25px;
     font-weight: 400;
     color: hsl(201, 11%, 66%) ;
-    margin-top: 20px;
+    margin-top: 40px;
     text-align: center;
     width: 80%;
 }
@@ -171,15 +172,15 @@ body{
     margin-bottom: 7.5%;
 }
 .six-one{
-    font-size: 32px;
+    font-size: 50px;
     font-weight: 600;
     color: hsl(210, 10%, 33%) ; 
 }
 .six-two{
-    font-size: 18px;
+    font-size: 25px;
     font-weight: 400;
     color: hsl(201, 11%, 66%) ;
-    margin-top: 20px;
+    margin-top: 40px;
     text-align: center;
 }
 .part-seven{
@@ -191,27 +192,31 @@ body{
     margin-bottom: 15%;
 }
 .icon{
-    margin-bottom: 50px;
+    margin-bottom: 80px;
+    width: 5em;
 }
 .seven-one{
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 25%;
     margin-right: 10%;
 }
 .seven-one-three{
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 25%;
 }
 .seven-head{
-    font-size: 28px;
+    font-size: 35px;
     font-weight: 600;
     color: hsl(210, 10%, 33%) ;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
+    text-align: center;
 }
 .seven-body{
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 400;
     word-spacing: 2px;
     color: hsl(201, 11%, 66%) ;
@@ -230,16 +235,19 @@ body{
     flex-direction: column;
     align-items: center;
 }
+.logos{
+    width: 10em;
+}
 .nine-one{
-    font-size: 32px;
+    font-size: 50px;
     font-weight: 600;
     color: hsl(210, 10%, 33%) ; 
 }
 .nine-two{
-    font-size: 18px;
+    font-size: 25px;
     font-weight: 400;
     color: hsl(201, 11%, 66%) ;
-    margin-top: 20px;
+    margin-top: 40px;
     text-align: center;
     width: 70%;
 }
@@ -270,8 +278,570 @@ li a{
 .socials{
     display: flex;
     flex-direction: row;
+    align-items: center;
 }
 .social-logo{
     padding-right: 20px;
+}
+
+@media  screen and (max-width: 1440px) {
+    body{
+        background-image: url('images/bg-header-desktop.png');
+        background-repeat: no-repeat;
+        background-size: auto;
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        margin: 8% auto 0% auto;
+    }
+    .part-one{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .clipboard{
+        height: 100px;
+    }
+    .one-one{
+        font-size: 36px;
+        font-weight: 600;
+        color: hsl(210, 10%, 33%) ;
+        margin-top: 50px;
+    }
+    .one-two{
+        font-size: 20px;
+        font-weight: 400;
+        color: hsl(201, 11%, 66%) ;
+        margin-top: 20px;
+        text-align: center;
+        width: 60%;
+    }
+    .buttons{
+        margin-top: 50px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-bottom: 15%;
+    }
+    .button-ios{
+        border:none;
+        border-radius: 50px;
+        padding: 14px 40px;
+        font-size: 18px;
+        color:rgba(255, 255, 255, 0.8) ;
+        margin-right: 20px;
+        background-color: hsl(171, 66%, 44%);
+        box-shadow: 1px 3px 10px 0px hsl(171deg 60% 33%), 
+                    1px 3px 0px 0px hsl(171deg 60% 33%);
+        transition: 75ms;
+        cursor: pointer;
+    }
+    .button-ios:hover{
+        transition: 75ms;
+        background-color: hsla(171, 66%, 44%, 0.8);
+        box-shadow: 1px 3px 10px 0px hsl(171deg 60% 33%, 0.8), 
+                    1px 3px 0px 0px hsl(171deg 60% 33%, 0.8);
+    }
+    .button-mac{
+        border:none;
+        border-radius: 50px;
+        padding: 14px 40px;
+        font-size: 18px;
+        color:rgba(255, 255, 255, 0.8) ;
+        background-color: hsl(233, 100%, 69%); 
+        box-shadow: 1px 3px 10px 0px hsl(233deg 48% 53%), 
+                    1px 3px 0px 0px hsl(233deg 48% 53%);
+        transition: 75ms; 
+        cursor: pointer;
+    }
+    .button-mac:hover{
+        transition: 75ms;
+        background-color: hsl(233, 100%, 69%, 0.8); 
+        box-shadow: 1px 3px 10px 0px hsl(233deg 48% 53%, 0.8), 
+                    1px 3px 0px 0px hsl(233deg 48% 53%, 0.8); 
+    }
+    .part-two{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 10%;
+    }
+    .two-one{
+        font-size: 32px;
+        font-weight: 600;
+        color: hsl(210, 10%, 33%) ;
+    }
+    .two-two{
+        font-size: 18px;
+        font-weight: 400;
+        color: hsl(201, 11%, 66%) ;
+        margin-top: 20px;
+        text-align: center;
+        width: 50%;
+    }
+    .part-three{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-bottom: 10%;
+    }
+    .computer-img{
+        height: 55%;
+        width: 60%;
+        margin-left: -2.5%;
+        margin-right: 10%;
+    }
+    .three-one{
+        margin-top: 2.5%;
+        display: flex;
+        flex-direction: column;
+    }
+    .three-one-one, .three-one-two, .three-one-three{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        width: 70%;
+    }
+    .three-one-text{
+        font-size: 28px;
+        font-weight: 600;
+        color: hsl(210, 10%, 33%) ;
+        margin-bottom: 10px;
+    }
+    .three-one-small-text{
+        font-size: 18px;
+        font-weight: 400;
+        word-spacing: 2px;
+        color: hsl(201, 11%, 66%) ;
+        margin-bottom: 10%;
+    }
+    .part-four{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 7.5%;
+    }
+    .four-one{
+        font-size: 32px;
+        font-weight: 600;
+        color: hsl(210, 10%, 33%) ; 
+    }
+    .four-two{
+        font-size: 18px;
+        font-weight: 400;
+        color: hsl(201, 11%, 66%) ;
+        margin-top: 20px;
+        text-align: center;
+        width: 80%;
+    }
+    .part-five{
+        margin-bottom: 7.5%;
+    }
+    .devices-image{
+        align-self: center;
+    }
+    .part-six{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 7.5%;
+    }
+    .six-one{
+        font-size: 32px;
+        font-weight: 600;
+        color: hsl(210, 10%, 33%) ; 
+    }
+    .six-two{
+        font-size: 18px;
+        font-weight: 400;
+        color: hsl(201, 11%, 66%) ;
+        margin-top: 20px;
+        text-align: center;
+    }
+    .part-seven{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 85%;
+        align-items: center;
+        margin-bottom: 15%;
+    }
+    .icon{
+        margin-bottom: 50px;
+        width: 2em;
+    }
+    .seven-one{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-right: 10%;
+    }
+    .seven-one-three{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .seven-head{
+        font-size: 28px;
+        font-weight: 600;
+        color: hsl(210, 10%, 33%) ;
+        margin-bottom: 10px;
+    }
+    .seven-body{
+        font-size: 18px;
+        font-weight: 400;
+        word-spacing: 2px;
+        color: hsl(201, 11%, 66%) ;
+        text-align: center;
+    }
+    .part-eight{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 85%;
+        margin-bottom: 15%;
+    }
+    .logos{
+        width: 8.5em;
+    }
+    .part-nine{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .nine-one{
+        font-size: 32px;
+        font-weight: 600;
+        color: hsl(210, 10%, 33%) ; 
+    }
+    .nine-two{
+        font-size: 18px;
+        font-weight: 400;
+        color: hsl(201, 11%, 66%) ;
+        margin-top: 20px;
+        text-align: center;
+        width: 70%;
+    }
+    footer{
+        position: bottom;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        background-color: hsl(195, 14%, 95%);
+        margin-bottom: 0;
+        width: 100%;
+        padding: 20px 100px;
+    }
+    .footer-logo{
+        height: 50px;
+    }
+    ul{
+        list-style: none;
+        display: contents;
+        width: 30%;
+    }
+    li a{
+        font-size: 20px;
+        font-weight: 400;
+        color: hsl(210, 10%, 33%) ;
+        cursor: pointer;
+    }
+    .socials{
+        display: flex;
+        flex-direction: row;
+    }
+    .social-logo{
+        padding-right: 40px;
+    }
+}
+@media  screen and (max-width: 1024px) {
+    body{
+        background-image: url('images/bg-header-desktop.png');
+        background-repeat: no-repeat;
+        background-size: auto;
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        margin: 8% auto 0% auto;
+    }
+    .part-one{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .clipboard{
+        height: 80px;
+    }
+    .one-one{
+        font-size: 34px;
+        font-weight: 600;
+        color: hsl(210, 10%, 33%) ;
+        margin-top: 40px;
+    }
+    .one-two{
+        font-size: 16px;
+        font-weight: 400;
+        color: hsl(201, 11%, 66%) ;
+        margin-top: 15px;
+        text-align: center;
+        width: 60%;
+    }
+    .buttons{
+        margin-top: 40px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-bottom: 15%;
+    }
+    .button-ios{
+        border:none;
+        border-radius: 50px;
+        padding: 10px 30px;
+        font-size: 14px;
+        color:rgba(255, 255, 255, 0.8) ;
+        margin-right: 20px;
+        background-color: hsl(171, 66%, 44%);
+        box-shadow: 1px 3px 10px 0px hsl(171deg 60% 33%), 
+                    1px 3px 0px 0px hsl(171deg 60% 33%);
+        transition: 75ms;
+        cursor: pointer;
+    }
+    .button-ios:hover{
+        transition: 75ms;
+        background-color: hsla(171, 66%, 44%, 0.8);
+        box-shadow: 1px 3px 10px 0px hsl(171deg 60% 33%, 0.8), 
+                    1px 3px 0px 0px hsl(171deg 60% 33%, 0.8);
+    }
+    .button-mac{
+        border:none;
+        border-radius: 50px;
+        padding: 10px 30px;
+        font-size: 14px;
+        color:rgba(255, 255, 255, 0.8) ;
+        background-color: hsl(233, 100%, 69%); 
+        box-shadow: 1px 3px 10px 0px hsl(233deg 48% 53%), 
+                    1px 3px 0px 0px hsl(233deg 48% 53%);
+        transition: 75ms; 
+        cursor: pointer;
+    }
+    .button-mac:hover{
+        transition: 75ms;
+        background-color: hsl(233, 100%, 69%, 0.8); 
+        box-shadow: 1px 3px 10px 0px hsl(233deg 48% 53%, 0.8), 
+                    1px 3px 0px 0px hsl(233deg 48% 53%, 0.8); 
+    }
+    .part-two{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 10%;
+    }
+    .two-one{
+        font-size: 28px;
+        font-weight: 600;
+        color: hsl(210, 10%, 33%) ;
+    }
+    .two-two{
+        font-size: 16px;
+        font-weight: 400;
+        color: hsl(201, 11%, 66%) ;
+        margin-top: 15px;
+        text-align: center;
+        width: 50%;
+    }
+    .part-three{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-bottom: 10%;
+    }
+    .computer-img{
+        height: 50%;
+        width: 50%;
+        margin-left: -2.5%;
+        margin-right: 10%;
+    }
+    .three-one{
+        margin-top: 2.5%;
+        display: flex;
+        flex-direction: column;
+    }
+    .three-one-one, .three-one-two, .three-one-three{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        width: 70%;
+    }
+    .three-one-text{
+        font-size: 22px;
+        font-weight: 600;
+        color: hsl(210, 10%, 33%) ;
+        margin-bottom: 5px;
+    }
+    .three-one-small-text{
+        font-size: 14px;
+        font-weight: 400;
+        word-spacing: 2px;
+        color: hsl(201, 11%, 66%) ;
+        margin-bottom: 7%;
+    }
+    .part-four{
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        align-items: center;
+        margin-bottom: 7.5%;
+    }
+    .four-one{
+        font-size: 28px;
+        font-weight: 600;
+        color: hsl(210, 10%, 33%) ; 
+    }
+    .four-two{
+        font-size: 16px;
+        font-weight: 400;
+        color: hsl(201, 11%, 66%) ;
+        margin-top: 20px;
+        text-align: center;
+        width: 80%;
+    }
+    .part-five{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 7.5%;
+    }
+    .devices-image{
+        align-self: center;
+        width: 80%;
+    }
+    .part-six{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 7.5%;
+    }
+    .six-one{
+        font-size: 28px;
+        font-weight: 600;
+        color: hsl(210, 10%, 33%) ; 
+    }
+    .six-two{
+        font-size: 16px;
+        font-weight: 400;
+        color: hsl(201, 11%, 66%) ;
+        margin-top: 20px;
+        text-align: center;
+    }
+    .part-seven{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        width: 85%;
+        align-items: center;
+        margin-bottom: 15%;
+    }
+    .icon{
+        margin-bottom: 40px;
+        width: 2em;
+    }
+    .seven-one{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-right: 10%;
+    }
+    .seven-one-three{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .seven-head{
+        font-size: 24px;
+        font-weight: 600;
+        color: hsl(210, 10%, 33%) ;
+        margin-bottom: 10px;
+    }
+    .seven-body{
+        font-size: 14px;
+        font-weight: 400;
+        word-spacing: 2px;
+        color: hsl(201, 11%, 66%) ;
+        text-align: center;
+    }
+    .part-eight{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 80%;
+        margin-bottom: 15%;
+    }
+    .logos{
+        width: 6.5em;
+    }
+    .part-nine{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .nine-one{
+        font-size: 28px;
+        font-weight: 600;
+        color: hsl(210, 10%, 33%) ; 
+    }
+    .nine-two{
+        font-size: 16px;
+        font-weight: 400;
+        color: hsl(201, 11%, 66%) ;
+        margin-top: 15px;
+        text-align: center;
+        width: 70%;
+    }
+    footer{
+        position: bottom;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        background-color: hsl(195, 14%, 95%);
+        margin-bottom: 0;
+        width: 100%;
+        padding: 15px 80px;
+    }
+    .footer-logo{
+        height: 35px;
+    }
+    ul{
+        list-style: none;
+        display: contents;
+        width: 30%;
+    }
+    li a{
+        font-size: 16px;
+        font-weight: 400;
+        color: hsl(210, 10%, 33%) ;
+        cursor: pointer;
+    }
+    .socials{
+        display: flex;
+        flex-direction: row;
+    }
+    .social-logo{
+        width: 35px;
+        padding-right: 15px;
+    }
+    .social-logo-t{
+        width: 35px;
+        padding-right: 15px;
+    }
 }
 
