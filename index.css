@@ -1095,7 +1095,7 @@ li a{
         font-size: 34px;
         font-weight: 600;
         color: hsl(210, 10%, 33%) ; 
-        text-align: center;
+        text-align: c;
     }
     .nine-two{
         font-size: 20px;
@@ -1164,25 +1164,25 @@ li a{
         width: 100%;
     }
     .clipboard{
-        height: 20%;
+        height: 80px;
     }
     .one-one{
-        font-size: 40px;
+        font-size: 32px;
         font-weight: 600;
         color: hsl(210, 10%, 33%) ;
-        margin-top: 70px;
+        margin-top: 40px;
         text-align: center
     }
     .one-two{
-        font-size: 20px;
+        font-size: 16px;
         font-weight: 400;
         color: hsl(201, 11%, 66%) ;
-        margin-top: 30px;
+        margin-top: 15px;
         text-align: center;
         width: 90%;
     }
     .buttons{
-        margin-top: 70px;
+        margin-top: 40px;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -1193,9 +1193,9 @@ li a{
         width: 100%;
         border-radius: 50px;
         padding: 10px 65px;
-        font-size: 20px;
+        font-size: 16px;
         color:rgba(255, 255, 255, 0.8) ;
-        margin-bottom: 40px;
+        margin-bottom: 20px;
         margin-right: 0;
         background-color: hsl(171, 66%, 44%);
         box-shadow: 1px 3px 10px 0px hsl(171deg 60% 33%), 
@@ -1211,7 +1211,7 @@ li a{
         border:none;
         border-radius: 50px;
         padding: 10px 65px;
-        font-size: 20px;
+        font-size: 16px;
         color:rgba(255, 255, 255, 0.8) ;
         background-color: hsl(233, 100%, 69%); 
         box-shadow: 1px 3px 10px 0px hsl(233deg 48% 53%), 
@@ -1230,13 +1230,13 @@ li a{
         margin-bottom: 20%;
     }
     .two-one{
-        font-size: 34px;
+        font-size: 26px;
         font-weight: 600;
         color: hsl(210, 10%, 33%) ;
         text-align: center;
     }
     .two-two{
-        font-size: 18px;
+        font-size: 14px;
         font-weight: 400;
         color: hsl(201, 11%, 66%) ;
         margin-top: 20px;
@@ -1270,14 +1270,14 @@ li a{
         width: 80%;
     }
     .three-one-text{
-        font-size: 26px;
+        font-size: 22px;
         font-weight: 600;
         color: hsl(210, 10%, 33%) ;
         margin-bottom: 10px;
         text-align: center;
     }
     .three-one-small-text{
-        font-size: 16px;
+        font-size: 14px;
         font-weight: 400;
         word-spacing: 2px;
         color: hsl(201, 11%, 66%) ;
@@ -1289,16 +1289,16 @@ li a{
         flex-direction: column;
         width: 100%;
         align-items: center;
-        margin-bottom: 7.5%;
+        margin-bottom: 12.5%;
     }
     .four-one{
-        font-size: 34px;
+        font-size: 26px;
         font-weight: 600;
         color: hsl(210, 10%, 33%) ; 
         text-align: center;
     }
     .four-two{
-        font-size: 18px;
+        font-size: 14px;
         font-weight: 400;
         color: hsl(201, 11%, 66%) ;
         margin-top: 20px;
@@ -1323,13 +1323,13 @@ li a{
         margin-bottom: 20%;
     }
     .six-one{
-        font-size: 34px;
+        font-size: 26px;
         font-weight: 600;
         color: hsl(210, 10%, 33%);
         text-align: center; 
     }
     .six-two{
-        font-size: 18px;
+        font-size: 14px;
         font-weight: 400;
         color: hsl(201, 11%, 66%) ;
         margin-top: 20px;
@@ -1347,7 +1347,7 @@ li a{
     }
     .icon{
         margin-bottom: 20px;
-        width: 2em;
+        width: 1.75em;
     }
     .seven-one{
         display: flex;
@@ -1366,13 +1366,13 @@ li a{
         margin-bottom: 5%
     }
     .seven-head{
-        font-size: 28px;
+        font-size: 22px;
         font-weight: 600;
         color: hsl(210, 10%, 33%) ;
         margin-bottom: 20px;
     }
     .seven-body{
-        font-size: 18px;
+        font-size: 14px;
         font-weight: 400;
         word-spacing: 2px;
         color: hsl(201, 11%, 66%) ;
@@ -1396,13 +1396,13 @@ li a{
         align-items: center;
     }
     .nine-one{
-        font-size: 34px;
+        font-size: 26px;
         font-weight: 600;
         color: hsl(210, 10%, 33%) ; 
         text-align: center;
     }
     .nine-two{
-        font-size: 20px;
+        font-size: 14px;
         font-weight: 400;
         color: hsl(201, 11%, 66%) ;
         margin-top: 15px;
@@ -1420,7 +1420,7 @@ li a{
         padding: 15px auto;
     }
     .footer-logo{
-        height: 80px;
+        height: 60px;
         padding-bottom: 25px;
     }
     ul{
@@ -1428,7 +1428,7 @@ li a{
         width: 100%;
     }
     li a{
-        font-size: 16px;
+        font-size: 10px;
         font-weight: 400;
         color: hsl(210, 10%, 33%) ;
         cursor: pointer;
@@ -1454,7 +1454,7 @@ li a{
         width: 100%;
         border-radius: 50px;
         padding: 10px 45px;
-        font-size: 20px;
+        font-size: 16px;
         color:rgba(255, 255, 255, 0.8) ;
         margin-bottom: 40px;
         margin-right: 0;
@@ -1472,7 +1472,7 @@ li a{
         border:none;
         border-radius: 50px;
         padding: 10px 45px;
-        font-size: 20px;
+        font-size: 16px;
         color:rgba(255, 255, 255, 0.8) ;
         background-color: hsl(233, 100%, 69%); 
         box-shadow: 1px 3px 10px 0px hsl(233deg 48% 53%), 
